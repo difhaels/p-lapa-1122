@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .button-text {
+    @apply bg-sky-500;
+    @apply text-slate-50;
+    @apply px-8;
+    @apply py-3;
+    @apply rounded-full;
+  }
+}
